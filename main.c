@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>.extensions
 #include <math.h>
 #include <time.h>
 #define TAM 50 //max amount of elements
