@@ -1,0 +1,38 @@
+
+
+TAD: servicio de impresion
+
+typedef struct {
+    int frente;
+    int final;
+    Documento documentos[MAX_COLA];
+} ServicioDeImpresion;
+
+Cola crearServicioDeImpresion() {
+    ServicioDeImpresion si;
+    si.final = -1;
+    si.frente = 0;
+    return si;
+}
+
+ServicioDeImpresion asignarDocumentoAServicioDeImpresion(ServicioDeImpresion si, Documento d) {
+    si.final++;
+    si.documentos[si.final] = d;
+    return si;
+}
+
+Documento recuperarDocumentoDelFrente(ServicioDeImpresion si) {
+    Documento d = si.documentos[q.frente];
+    q.frente++;
+    return d;
+}
+
+ServicioDeImpresion cancelarImpresion(Documento d) {
+    for (int i = si.frente; i <= si.final; ++i) {
+        Documento d = si.documentos[i];
+        if (strcmp(d.estado, DOC_ESPERA) == 0) {
+            lq2 = asignarDocumentoAServidorImpresion(lq2, d);
+        }
+    }
+}
+

@@ -35,8 +35,7 @@ Cola desencolar (Cola q){
 
 
 int recuperarFrente (Cola q) {
-    return q.queue[q.frente];
-    
+    return q.queue[q.frente];  
 }
 
 

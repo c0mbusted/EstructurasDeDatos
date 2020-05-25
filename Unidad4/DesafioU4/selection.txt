@@ -1,0 +1,4 @@
+numElement: 90000
+numCompElemAleat: 9056696203
+numCompMenorMayor: 4049955000
+numCompMayorMenor: 4049955000
