@@ -1,0 +1,13 @@
+Ambos problemas pueden ser resueltos usando
+iteracion. En este caso la recursividad 
+proporciona una manera ordenada de implementar 
+las funciones ya que toma los subproblemas de la
+funcion y los gestiona solamente usando la 
+llamada de la misma funcion. Debdo a que ambas 
+funciones necesitan acciones repetidas y no
+son arreglos grandes ni funciones que vayan 
+a tener demasiadas llamadas, la recursividad
+es un metodo util para resolverlas y pese 
+a que ocupara memoria para generar las llamadas,
+los problemas a resolver en este caso no son 
+tan grandes ni requieren tanta memoria. 
